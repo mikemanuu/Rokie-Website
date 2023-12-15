@@ -6,7 +6,6 @@ Welcome to the official website of Rokie Designs, your one-stop solution for a v
 - Introduction
 - Features
 - Technologies Used
-- Contributing
 - Contacts
 
 ## Introduction
@@ -30,5 +29,6 @@ Rokie Designs is dedicated to delivering top-notch services. Our website serves 
 - JavaScript
 
 ## Contacts
-Facebook: ROKIE Designs
-Email: rokiedesigns254@gmail.com
+
+- Facebook: ROKIE Designs
+- Email: rokiedesigns254@gmail.com
