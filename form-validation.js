@@ -2,8 +2,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const form = document.querySelector('form');
     const name_input = document.getElementById('name');
     const email_input = document.getElementById('email');
-    const number_input = document.getElementById('number');
-    const subject_input = document.getElementById('subject');
     const message_input = document.getElementById('message');
 
     function validateEmail(email) {
@@ -21,11 +19,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (!validateEmail(email_input.value)) {
             alert('Invalid email format');
-            return;
-        }
-
-        if (subject_input.value.trim() === '') {
-            alert('Subject is required!')
             return;
         }
 
