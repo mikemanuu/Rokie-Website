@@ -31,19 +31,19 @@ document.getElementById('menu-toggle').addEventListener('click', function () {
 const galleryContainer = document.getElementById('galleryContainer');
 const dotContainer = document.getElementById('dotContainer');
 const images = [
-    'images/cousins.jpg',
-    'images/centric.jpg',
-    'images/ILY.png',
-    'images/BELLE.png',
-    'images/rika.jpg',
-    'images/phenix.jpg',
-    'images/t-shirt.png',
-    'images/Marketing.png',
-    'images/SKINCARE.jpg',
-    'images/ROKIE.png',
-    'images/R.png',
-    'images/SOCIAL.png',
-    'images/cover.jpg'
+    'image/cousins.jpg',
+    'image/centric.jpg',
+    'image/ILY.png',
+    'image/BELLE.png',
+    'image/rika.jpg',
+    'image/phenix.jpg',
+    'image/t-shirt.png',
+    'image/Marketing.png',
+    'image/SKINCARE.jpg',
+    'image/ROKIE.png',
+    'image/R.png',
+    'image/SOCIAL.png',
+    'image/cover.jpg'
 ];
 
 let currentIndex = 0;
@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', updateGallery);
 //Set back-to-top arrow to show when the user has scrolled upto 2050 pixels.
 window.addEventListener('scroll', function () {
     const arrow = document.querySelector('.back-to-top');
-    if (window.scrollY > 2500) {
+    if (window.scrollY > 1500) {
         arrow.style.display = 'block';
     } else {
         arrow.style.display = 'none';
